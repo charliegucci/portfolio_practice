@@ -1,380 +1,407 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    color: #40514e;
-    text-align: center;
-    font-family: "Merriweather", serif;
-    width: 100%;
-    overflow-x: hidden;
+  color: #40514e;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .container {
-    box-sizing: border-box;
-    position: relative;
+  box-sizing: border-box;
+  position: relative;
 }
 
 h1 {
-    padding-top: 140px;
-    color: #9692af;
-    margin: 0 auto 0 auto;
-    font-family: "Sacramento", cursive;
-    font-size: 5.625rem;
+  padding-top: 140px;
+  color: #9692af;
+  margin: 0 auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
 }
 
 h2 {
-    font-weight: normal;
-    color: #acdbdf;
-    font-family: "Montserrat", sans-serif;
-    font-size: 2.5rem;
-    padding-bottom: 10px;
+  font-weight: normal;
+  color: #acdbdf;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
 }
 
 h3 {
-    color: #acdbdf;
-    font-family: "Montserrat", sans-serif;
+  color: #acdbdf;
+  font-family: "Montserrat", sans-serif;
 }
 
 p {
-    line-height: 2;
+  line-height: 2;
 }
 
 hr {
-    border: dotted #d7eaea 6px;
-    border-bottom: none;
-    width: 4%;
-    margin: 100px auto;
+  border: dotted #d7eaea 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 
 a {
-    color: #acdbdf;
-    font-family: "Montserrat", sans-serif;
-    margin: 10px 20px;
-    text-decoration: none;
+  color: #acdbdf;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #d7eaea;
+  color: #d7eaea;
 }
 
 .top {
-    padding-bottom: 320px;
+  padding-bottom: 320px;
 }
 
 .bldg {
-    /* padding-bottom: 50px;
+  /* padding-bottom: 50px;
       margin-top: 5%; */
-    position: absolute;
-    top: 360px;
-    right: -400px;
-    width: 20%;
-    opacity: 0.7;
-    animation: sky 40s 2s linear infinite reverse;
-    transition-duration: 0.4s;
+  position: absolute;
+  top: 360px;
+  right: -400px;
+  width: 20%;
+  opacity: 0.7;
+  animation: sky 40s 2s linear infinite reverse;
+  transition-duration: 0.4s;
 }
 
 .bldg:hover {
-    opacity: 1;
-    transform: scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 .bldg1 {
-    position: absolute;
-    top: 360px;
-    right: -400px;
-    width: 20%;
-    opacity: 0.7;
-    animation: sky 40s 10s linear infinite reverse;
-    transition-duration: 0.4s;
+  position: absolute;
+  top: 360px;
+  right: -400px;
+  width: 20%;
+  opacity: 0.7;
+  animation: sky 40s 10s linear infinite reverse;
+  transition-duration: 0.4s;
 }
 
 .bldg1:hover {
-    opacity: 1;
-    transform: scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 .bldg2 {
-    position: absolute;
-    top: 360px;
-    right: -400px;
-    width: 20%;
-    opacity: 0.7;
-    animation: sky 40s 18s linear infinite reverse;
-    transition-duration: 0.4s;
+  position: absolute;
+  top: 360px;
+  right: -400px;
+  width: 20%;
+  opacity: 0.7;
+  animation: sky 40s 18s linear infinite reverse;
+  transition-duration: 0.4s;
 }
 
 .bldg2:hover {
-    opacity: 1;
-    transform: scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 .bldg3 {
-    position: absolute;
-    top: 360px;
-    right: -400px;
-    width: 20%;
-    opacity: 0.7;
-    animation: sky 40s 26s linear infinite reverse;
-    transition-duration: 0.4s;
+  position: absolute;
+  top: 360px;
+  right: -400px;
+  width: 20%;
+  opacity: 0.7;
+  animation: sky 40s 26s linear infinite reverse;
+  transition-duration: 0.4s;
 }
 
 .bldg3:hover {
-    opacity: 1;
-    transform: scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 .bldg4 {
-    position: absolute;
-    top: 360px;
-    right: -400px;
-    width: 20%;
-    opacity: 0.7;
-    animation: sky 40s 34s linear infinite reverse;
-    transition-duration: 0.4s;
+  position: absolute;
+  top: 360px;
+  right: -400px;
+  width: 20%;
+  opacity: 0.7;
+  animation: sky 40s 34s linear infinite reverse;
+  transition-duration: 0.4s;
 }
 
 .bldg4:hover {
-    opacity: 1;
-    transform: scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 .road {
-    background-color: #9692af;
-    height: 100px;
-    width: 100%;
-    position: relative;
+  background-color: #9692af;
+  height: 100px;
+  width: 100%;
+  position: relative;
 }
 
 .lines {
-    box-sizing: border-box;
-    border: 3px dashed #fff;
-    height: 0px;
-    width: 100%;
-    position: absolute;
-    top: 45%;
+  box-sizing: border-box;
+  border: 3px dashed #fff;
+  height: 0px;
+  width: 100%;
+  position: absolute;
+  top: 45%;
 }
 
 .mario {
-    position: absolute;
-    top: -50px;
-    left: 0px;
-    width: 5%;
-    animation: drive 33s 3s both infinite linear, jump 0.6s 15s ease;
+  position: absolute;
+  top: -50px;
+  left: 0px;
+  width: 5%;
+  animation: drive 33s 3s both infinite linear, jump 0.8s 16s ease;
 }
 
 .luigi {
-    position: absolute;
-    top: 10px;
-    left: 0px;
-    width: 5%;
-    animation: drive 35s 3s both infinite linear;
+  position: absolute;
+  top: 10px;
+  left: 0px;
+  width: 5%;
+  animation: drive 35s 3s both infinite linear;
 }
 
 .name {
-    position: relative;
-    left: -1000px;
-    animation: slide 0.7s 2s ease forwards;
+  position: relative;
+  left: -1000px;
+  animation: slide 0.7s 2s ease forwards;
 }
 
 .job {
-    position: relative;
-    right: -1000px;
-    animation: slide1 0.7s 3s ease forwards;
+  transform-origin: 500px -10px;
+  position: relative;
+  right: -1000px;
+  animation: slide1 0.7s 3s ease forwards, slide3 3s 14s ease forwards;
 }
 
 @keyframes slide1 {
-    0% {}
+  0% {
+  }
 
-    70% {
-        transform: translateX(-1150px);
-        scale: 1.2;
-    }
+  70% {
+    transform: translateX(-1150px);
+    scale: 1.2;
+  }
 
-    100% {
-        transform: translateX(-1000px);
-        scale: 1;
-    }
+  100% {
+    transform: translateX(-1000px);
+    scale: 1;
+  }
 }
 
 @keyframes slide {
-    0% {}
+  0% {
+  }
 
-    70% {
-        transform: translateX(1150px);
-    }
+  70% {
+    transform: translateX(1150px);
+  }
 
-    100% {
-        transform: translateX(1000px);
-    }
+  100% {
+    transform: translateX(1000px);
+  }
 }
 
 @keyframes drive {
-    from {
-        transform: translateX(-200px);
-    }
+  from {
+    transform: translateX(-200px);
+  }
 
-    to {
-        transform: translateX(1800px);
-    }
+  to {
+    transform: translateX(1800px);
+  }
 }
 
 @keyframes jump {
-    0% {
-        top: -40px;
-    }
+  0% {
+    top: -40px;
+  }
 
-    50% {
-        top: -100px;
-    }
+  50% {
+    top: -130px;
+  }
 
-    100% {
-        top: -40px;
-    }
+  100% {
+    top: -40px;
+  }
 }
 
 @keyframes sky {
-    from {
-        left: -200px;
-    }
+  from {
+    left: -200px;
+  }
 
-    to {
-        left: 100%;
-    }
+  to {
+    left: 100%;
+  }
 }
 
 .bottom-cloud {
-    position: absolute;
-    left: 250px;
-    opacity: 0.6;
-    animation: sky 30s linear infinite reverse;
+  position: absolute;
+  left: 250px;
+  opacity: 0.6;
+  animation: sky 30s linear infinite reverse;
 }
 
 .top-cloud {
-    position: absolute;
-    /* right: 250px; */
-    top: 100px;
-    opacity: 0.9;
-    animation: sky 20s linear infinite reverse;
+  position: absolute;
+  /* right: 250px; */
+  top: 100px;
+  opacity: 0.9;
+  animation: sky 20s linear infinite reverse;
 }
 
 .middle {
-    margin: 150px auto 100px auto;
+  margin: 150px auto 100px auto;
 }
 
 .skill-row {
-    text-align: left;
-    width: 50%;
-    margin: 100px auto 110px auto;
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 110px auto;
 }
 
 .ruby {
-    width: 25%;
-    float: left;
-    margin-right: 50px;
+  width: 25%;
+  float: left;
+  margin-right: 50px;
 }
 
 .html_css {
-    width: 25%;
-    float: right;
-    margin-left: 50px;
+  width: 25%;
+  float: right;
+  margin-left: 50px;
 }
 
 .profile {
-    width: 5%;
-    border-radius: 100%;
-    left: 5rem;
-    position: fixed;
-    top: 50rem;
-    opacity: 0.8;
-    transition: transform 1s;
-    z-index: 1;
-    animation: slide2 0.7s ease forwards;
+  width: 5%;
+  border-radius: 100%;
+  left: 5rem;
+  position: fixed;
+  top: 50rem;
+  opacity: 0.8;
+  transition: transform 1s;
+  z-index: 1;
+  animation: slide2 0.7s ease forwards;
 }
 
 @keyframes slide2 {
-    0% {}
+  0% {
+    opacity: 0;
+  }
 
-    70% {
-        transform: translateY(-49rem);
-    }
+  70% {
+    transform: translateY(-49rem);
+  }
 
-    100% {
-        transform: translateY(-47rem);
-    }
+  100% {
+    transform: translateY(-47rem);
+    opacity: 1;
+  }
+}
+@keyframes slide3 {
+  0% {
+    transform: translateX(-1000px) rotateZ(0deg);
+  }
+  40% {
+    transform: translateX(-1000px) rotateZ(90deg);
+  }
+  60% {
+    transform: translateX(-1000px) rotateZ(50deg);
+  }
+  75% {
+    transform: translateX(-1000px) rotateZ(55deg);
+  }
+  100% {
+    transform: translateX(-1000px) rotateZ(0deg);
+  }
 }
 
 .profile:hover {
-    opacity: 1;
-    transform: scale(1.5);
+  opacity: 1;
+  transform: scale(1.5);
 }
 
 .btn {
-    -moz-box-shadow: inset 0px 1px 0px 0px #bee2f9;
-    -webkit-box-shadow: inset 0px 1px 0px 0px #bee2f9;
-    box-shadow: inset 0px 1px 0px 0px #bee2f9;
-    background: -webkit-gradient(linear,
-            left top,
-            left bottom,
-            color-stop(0.05, #63b8ee),
-            color-stop(1, #468ccf));
-    background: -moz-linear-gradient(center top, #63b8ee 5%, #468ccf 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf');
-    background-color: #63b8ee;
-    -webkit-border-top-left-radius: 8px;
-    -moz-border-radius-topleft: 8px;
-    border-top-left-radius: 8px;
-    -webkit-border-top-right-radius: 8px;
-    -moz-border-radius-topright: 8px;
-    border-top-right-radius: 8px;
-    -webkit-border-bottom-right-radius: 8px;
-    -moz-border-radius-bottomright: 8px;
-    border-bottom-right-radius: 8px;
-    -webkit-border-bottom-left-radius: 8px;
-    -moz-border-radius-bottomleft: 8px;
-    border-bottom-left-radius: 8px;
-    text-indent: 0;
-    border: 1px solid #3866a3;
-    display: inline-block;
-    color: #14396a;
-    font-family: "Montserrat", sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    font-style: normal;
-    height: 50px;
-    line-height: 50px;
-    width: 115px;
-    text-decoration: none;
-    text-align: center;
-    text-shadow: 1px 1px 0px #7cacde;
+  -moz-box-shadow: inset 0px 1px 0px 0px #bee2f9;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #bee2f9;
+  box-shadow: inset 0px 1px 0px 0px #bee2f9;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #63b8ee),
+    color-stop(1, #468ccf)
+  );
+  background: -moz-linear-gradient(center top, #63b8ee 5%, #468ccf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#63b8ee', endColorstr='#468ccf');
+  background-color: #63b8ee;
+  -webkit-border-top-left-radius: 8px;
+  -moz-border-radius-topleft: 8px;
+  border-top-left-radius: 8px;
+  -webkit-border-top-right-radius: 8px;
+  -moz-border-radius-topright: 8px;
+  border-top-right-radius: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  border-bottom-right-radius: 8px;
+  -webkit-border-bottom-left-radius: 8px;
+  -moz-border-radius-bottomleft: 8px;
+  border-bottom-left-radius: 8px;
+  text-indent: 0;
+  border: 1px solid #3866a3;
+  display: inline-block;
+  color: #14396a;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: normal;
+  height: 50px;
+  line-height: 50px;
+  width: 115px;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 1px 1px 0px #7cacde;
 }
 
 .btn:hover {
-    background: -webkit-gradient(linear,
-            left top,
-            left bottom,
-            color-stop(0.05, #468ccf),
-            color-stop(1, #63b8ee));
-    background: -moz-linear-gradient(center top, #468ccf 5%, #63b8ee 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#468ccf', endColorstr='#63b8ee');
-    background-color: #468ccf;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #468ccf),
+    color-stop(1, #63b8ee)
+  );
+  background: -moz-linear-gradient(center top, #468ccf 5%, #63b8ee 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#468ccf', endColorstr='#63b8ee');
+  background-color: #468ccf;
 }
 
 .btn:active {
-    position: relative;
-    top: 1px;
+  position: relative;
+  top: 1px;
 }
 
 .top {
-    background-color: #69779b;
+  background-color: #69779b;
 }
 
 .bottom {
-    background-color: #69779b;
-    padding: 50px 0 20px;
+  background-color: #69779b;
+  padding: 50px 0 20px;
 }
 
 .copyright {
-    color: #acdbdf;
-    font-size: 0.75rem;
+  color: #acdbdf;
+  font-size: 0.75rem;
 }
