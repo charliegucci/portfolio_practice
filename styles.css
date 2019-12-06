@@ -184,9 +184,34 @@ a:hover {
   animation: slide1 0.7s 3s ease forwards, slide3 3s 14s ease forwards;
 }
 
-@keyframes slide1 {
+.fly {
+  position: absolute;
+  top: -50px;
+  left: 0px;
+  width: 8%;
+  animation: fly_1 9s linear;
+}
+
+@keyframes fly_1 {
   0% {
+    transform: translate(-100px, -100px);
   }
+
+  50% {
+    transform: translate(800px, -400px);
+  }
+
+  60% {
+    transform: rotate(90deg);
+  }
+
+  100% {
+    transform: translate(10px, -10px);
+  }
+}
+
+@keyframes slide1 {
+  0% {}
 
   70% {
     transform: translateX(-1150px);
@@ -200,8 +225,7 @@ a:hover {
 }
 
 @keyframes slide {
-  0% {
-  }
+  0% {}
 
   70% {
     transform: translateX(1150px);
@@ -228,7 +252,7 @@ a:hover {
   }
 
   50% {
-    top: -130px;
+    top: -120px;
   }
 
   100% {
@@ -248,17 +272,17 @@ a:hover {
 
 .bottom-cloud {
   position: absolute;
-  left: 250px;
+  left: -250px;
   opacity: 0.6;
-  animation: sky 30s linear infinite reverse;
+  animation: sky 30s 1.5s linear infinite reverse;
 }
 
 .top-cloud {
   position: absolute;
-  /* right: 250px; */
+  right: -250px;
   top: 100px;
   opacity: 0.9;
-  animation: sky 20s linear infinite reverse;
+  animation: sky 25s 1s linear infinite reverse;
 }
 
 .middle {
@@ -290,15 +314,13 @@ a:hover {
   position: fixed;
   top: 50rem;
   opacity: 0.8;
-  transition: transform 1s;
+  /* transition: transform 2s; */
   z-index: 1;
-  animation: slide2 0.7s ease forwards;
+  animation: slide2 0.9s 0.5s ease forwards;
 }
 
 @keyframes slide2 {
-  0% {
-    opacity: 0;
-  }
+  0% {}
 
   70% {
     transform: translateY(-49rem);
@@ -306,22 +328,26 @@ a:hover {
 
   100% {
     transform: translateY(-47rem);
-    opacity: 1;
   }
 }
+
 @keyframes slide3 {
   0% {
     transform: translateX(-1000px) rotateZ(0deg);
   }
-  40% {
+
+  50% {
     transform: translateX(-1000px) rotateZ(90deg);
   }
+
   60% {
     transform: translateX(-1000px) rotateZ(50deg);
   }
+
   75% {
     transform: translateX(-1000px) rotateZ(55deg);
   }
+
   100% {
     transform: translateX(-1000px) rotateZ(0deg);
   }
@@ -332,7 +358,7 @@ a:hover {
   transform: scale(1.5);
 }
 
-.btn {
+/* .btn {
   -moz-box-shadow: inset 0px 1px 0px 0px #bee2f9;
   -webkit-box-shadow: inset 0px 1px 0px 0px #bee2f9;
   box-shadow: inset 0px 1px 0px 0px #bee2f9;
@@ -385,7 +411,7 @@ a:hover {
   background: -moz-linear-gradient(center top, #468ccf 5%, #63b8ee 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#468ccf', endColorstr='#63b8ee');
   background-color: #468ccf;
-}
+} */
 
 .btn:active {
   position: relative;
